@@ -1,0 +1,18 @@
+{
+    "name": "wbdv-sp21-semaa-amin-assignment5-client-react",
+    "version": "0.1.0",
+    "author": "Semaa Amin",
+    "description": "the Node server side LMS",
+    "main": "server.js",
+    "private": true,
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.12.3",
+        "nodemon": "^2.0.15"
+    },
+    "scripts": {
+        "test": "nodemon server.js",
+        "start": "node server.js",
+        "run": "node server.js"
+    }
+}
